@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brothers Pizza Blackstone Virginia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu, .contact {
+            margin-bottom: 20px;
+        }
+        .menu h2, .contact h2 {
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 10px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 18px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brothers Pizza Blackstone Virginia</h1>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://example.com/pizza_image.jpg" alt="Delicious Pizza">
+            <img src="https://example.com/italy_image.jpg" alt="Italy">
+        </div>
+        <section class="menu">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <h3>Pepperoni Pizza</h3>
+                <p>Classic pepperoni pizza with a crispy crust.</p>
+                <p>Price: $10.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Fresh tomatoes, mozzarella, and basil.</p>
+                <p>Price: $9.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Veggie Pizza</h3>
+                <p>Loaded with fresh vegetables.</p>
+                <p>Price: $11.99</p>
+            </div>
+            <!-- Add more menu items as needed -->
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p class="contact-info">Phone: (123) 456-7890</p>
+            <p class="contact-info">Order for pickup or delivery only.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Brothers Pizza Blackstone Virginia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
